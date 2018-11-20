@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <img src="Imagenes/logo_svg.svg" alt="imagen SVG" width="200px" height="200px">
+    <h1>Curriculum Vitae</h1>
+    <br>
+    <ul>
+      <li><a href="index.html">Inicio<a/></li>
+      <li><a href="educacion.html">Educacion<a/></li>
+      <li><a href="experiencia.html">Experiencia<a/></li>
+    </ul>
+    <br>
+    <h2>Datos Personales</h2>
+    <h3>Nombre: <em>Fernando Ariel</em></h3>
+    <h3>Apellidos: <em>Rossetti</em></h3>
+    <h3>Fecha y Lugar de Nacimiento: 23/02/1991 - <em>Tancacha</em></h3>
+    <br>
+    <h2>Educacion</h2>
+    <br>
+    <table id="myTable" border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <td><strong>Año</strong></td>
+        <td><strong>Institucion</strong></td>
+        <td><strong>Lugar</strong></td>
+        <td><strong>¿Culmino?</strong></td>
+      </thead>
+      <tbody>
+        <td>2012</td>
+        <td>Instituto Santiago Ramon y Cajal</td>
+        <td>Tancacha</td>
+        <td>Si</td>
+      </tbody>
+      <tbody>
+        <td>2016</td>
+        <td>Escuela Superior de Comercio</td>
+        <td>Rio Tercero</td>
+        <td>Si</td>
+      </tbody>
+    </table>
+    <h2>Agregar Estudios</h2>
+    <form action="">
+      <h3>
+      <label for="año"><strong>Año:<strong/></label>
+      <input type="number" min="1900" max="2050">
+      </h3>
+      <h3>
+      <label for="institucion"><strong>Institucion:<strong/></label>
+      <input type="text" required>
+      </h3>
+      <h3>
+      <label for="lugar"><strong>Lugar:<strong/></label>
+      <input type="text">
+      </h3>
+      <h3>
+      <label for="¿culmino?"><strong>¿Culmino?:<strong/></label>
+      <input type="radio" name="¿culmino?" value=""> Si
+      <input type="radio" name="¿culmino?" value=""> No
+      </h3>
+      <h3>
+      <input type="submit" value="Enviar">
+      </h3>
+    </form>
+  <footer>
+      <p>@Derechos Reservados</p>
+      <ul>
+        <li>Email: <a href="mailto:fernando_r_4@hormail.com">fernando_r_4@hotmail.com</a> </li>
+        <li>Telefono: +5493571638017</li>
+        <li>Redes Sociales: <a href="https://www.facebook.com/fernando.rossetti.7" target="_blank">facebook</a> </li>
+        <li>Direccion: Entre Rios 308 - Cordoba - Argentina</li>
+      </ul>
+  </footer>
+  </body>
+</html>
